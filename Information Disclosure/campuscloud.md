@@ -12,7 +12,10 @@ The CampusCloud Enterprise LMS has a debug interface left enabled in production,
 4. Also check `https://campuscloud.pwnedbox.site/debug/info.php` and `/debug/status.php` for additional disclosures
    
 ## POC (Proof of Concept)
-<!-- Add screenshots, HTTP requests/responses, payloads, or videos that demonstrate the vulnerability. -->
+<img width="1920" height="995" alt="a" src="https://github.com/user-attachments/assets/9de97473-ceca-4b08-a26b-d546ff16bf3b" />
+<img width="1917" height="999" alt="b" src="https://github.com/user-attachments/assets/79ab7eb3-62b3-4994-a3e3-6d118df19e3f" />
+<img width="1914" height="993" alt="c" src="https://github.com/user-attachments/assets/189896eb-6456-4393-b355-1ee8ae51cccd" />
+
 
 ## Impact
 - **AWS IAM keys exposed** → full access to `campuscloud-student-backups-us-east-1` S3 bucket containing student data; potential for broader AWS account takeover

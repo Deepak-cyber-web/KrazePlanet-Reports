@@ -3,6 +3,7 @@ CampusCloud LMS — Unauthenticated Debug Interface Exposing Full Production Env
 
 ## Description
 **Affected URL:** https://campuscloud.pwnedbox.site/
+
 The CampusCloud Enterprise LMS has a debug interface left enabled in production, publicly accessible with no authentication. The /debug endpoint returns a JSON index linking to sub-endpoints including /debug/environment.php, which dumps the complete production environment configuration. This single endpoint exposes every infrastructure secret in the application — database credentials, AWS IAM keys, Redis password, RabbitMQ credentials, SendGrid API key, SSO OIDC secret, internal service bearer token, and the application encryption key — all in plaintext JSON to any unauthenticated user.
 
 ## Steps to Reproduce

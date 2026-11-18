@@ -27,3 +27,4 @@ Non-existing username → Returns: "If a user with that username exists, a reset
 - **Return a uniform response** for all username inputs:  
 	"If a user with that username exists, a reset code will be sent."_ — identical for both valid and invalid usernames.
 - **Rate-limit the reset endpoint** to prevent automated username enumeration and token fishing.
+- Use short-lived, single-use tokens and invalidate them immediately after use or after a timeout (e.g., 15 minutes).

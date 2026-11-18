@@ -19,7 +19,8 @@ The success message is intentionally generic, but the explicit error message for
 6. Any email that does **not** return the explicit error is a confirmed valid account. Automate with a wordlist to enumerate at scale.
 
 ## POC (Proof of Concept)
-<!-- Add screenshots, HTTP requests/responses, payloads, or videos that demonstrate the vulnerability. -->
+<img width="1917" height="993" alt="3" src="https://github.com/user-attachments/assets/2899a0e2-1f26-49e5-b79f-0f1b34b97872" />
+<img width="1917" height="999" alt="4" src="https://github.com/user-attachments/assets/6516fd8e-f334-4aee-a1f5-7dd4bcaa2f5b" />
 
 ## Impact
 - **Account enumeration at scale** — confirmed email list enables targeted credential stuffing or password spraying against the platform.

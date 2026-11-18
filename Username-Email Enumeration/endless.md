@@ -21,6 +21,7 @@ Non-existing username → Returns: "If a user with that username exists, a reset
 
 ## Impact
 - **Username enumeration** — Confirmed usernames can be fed into brute-force or credential-stuffing attacks against the admin panel.
+- Full admin panel compromise — DirectAdmin is a server control panel; compromise of the admin account provides server-level access (files, databases, DNS, email).
 
 ## Remediation
 - **Return a uniform response** for all username inputs:  
